@@ -14,7 +14,7 @@ export default function StagePage() {
 
     const { stageId } = useParams(); // Get stageId from link
     const [searchTerm, setSearchTerm] = useState('');
-    const [selectedCategory, setSelectedCategory] = useState('');
+    const [selectedCategory, setSelectedCategory] = useState('all');
 
     // Get events that matches stageid and id from link
     // Result: an array of stageevents called "events"
